@@ -11,7 +11,7 @@ from django.views.generic import (
 from .forms import CoffeeModelForm
 from .models import Coffee
 
-# Create your views here.
+# Coffee views
 
 class CoffeeCreateView(CreateView):
 	template_name = 'coffees/coffee_create.html'
